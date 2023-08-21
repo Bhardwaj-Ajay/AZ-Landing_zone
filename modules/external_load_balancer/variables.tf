@@ -1,0 +1,13 @@
+variable "location" {}
+variable "env" {}
+variable "app" {} 
+variable "resource_group_name" {}
+variable "ext_lb_env" {}
+variable "ext_lb_protocol" {}
+variable "ext_lb_sku" {}
+variable "ext_lb_probe_protocol" {}
+variable "ext_lb_probe_port" {}
+variable "ext_lb_probe_interval" {}
+variable "ext_lb_frontend_port" {}
+variable "ext_lb_backend_port" {}
+variable "ext_lb_backend_servers" {}
