@@ -1,0 +1,15 @@
+variable "location" {}
+variable "env" {}
+variable "app" {} 
+variable "resource_group_name" {}
+variable "int_lb_env" {}
+variable "int_lb_frontend_ip" {}
+variable "int_lb_sku" {}
+variable "int_lb_protocol" {}
+variable "int_lb_probe_protocol" {}
+variable "int_lb_probe_port" {}
+variable "int_lb_probe_interval" {}
+variable "int_lb_frontend_port" {}
+variable "int_lb_backend_port" {}
+variable "int_lb_backend_servers" {}
+variable "int_lb_subnet" {}
